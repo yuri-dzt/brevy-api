@@ -58,35 +58,49 @@ O projeto foi estruturado de forma modular para facilitar manutenção e evoluç
 ⚙️ Instalação e uso
 
 1️⃣ Clonar o repositório
-git clone https://github.com/yuri-dzt/brevy.git
-cd brevy
+```bash
+  git clone https://github.com/yuri-dzt/brevy.git
+  cd brevy
+```
 
 2️⃣ Instalar dependências
-pnpm install
+```bash
+  pnpm install
+```
 
 3️⃣ Criar o arquivo .env
 - Crie um arquivo .env na raiz com:
-OPENAI_API_KEY=coloque_sua_chave_aqui
-PORT=4000
+```bash 
+  OPENAI_API_KEY=coloque_sua_chave_aqui
+  PORT=4000
+```
 
 4️⃣ Rodar o servidor
-pnpm dev
+```bash
+- pnpm dev
+```
 
 O servidor estará rodando em:
-http://localhost:4000
+- http://localhost:4000
 
 🧩 Endpoint principal
+```bash
 POST /api/summarize
+```
 
 📥 Request body:
+```bash
 {
   "text": "A inteligência artificial tem revolucionado diversos setores..."
 }
+```
 
 📤 Response:
+```bash
 {
   "summary": "A IA está transformando setores, otimizando processos e criando novas oportunidades."
 }
+```
 
 🧠 Como funciona
 - O usuário envia um texto via POST /summarize.
@@ -116,5 +130,5 @@ POST /api/summarize
 - 🗂 Histórico de resumos, permitindo consultar e salvar resultados anteriores
 - 🚀 Exportação e compartilhamento de resumos em PDF ou link
 
-🧑‍💻 Autor
-Feito por Yuri Donizete
+🧑‍💻 Autor:
+- Feito por Yuri Donizete
