@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest watch",
     "dev": "ts-node-dev --respawn --transpile-only src/infra/server.ts",
     "build": "tsc",
     "start": "node dist/infra/server.js",
@@ -17,6 +19,7 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "openai": "^6.7.0",
+    "vitest": "^4.0.5",
     "zod": "^4.1.12"
   },
   "devDependencies": {
