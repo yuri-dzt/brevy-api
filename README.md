@@ -48,6 +48,9 @@ src/
  │    ├── app.ts
  │    ├── logger.ts
  │    └── server.ts
+__tests__/
+    ├── app/
+    │    └── use-cases/ 
 .env
 package.json
 tsconfig.json
