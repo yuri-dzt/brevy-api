@@ -32,8 +32,6 @@
 
 ## 📂 Estrutura do projeto
 
-## 📂 Estrutura do projeto
-
 ```bash
 src/
  ├── app/
@@ -53,6 +51,7 @@ src/
 .env
 package.json
 tsconfig.json
+```
 
 O projeto foi estruturado de forma modular para facilitar manutenção e evolução futura (Clean Architecture, DDD, etc.).
 
