@@ -77,7 +77,7 @@ O projeto foi estruturado de forma modular para facilitar manutenção e evoluç
 
 4️⃣ Rodar o servidor
 ```bash
-- pnpm dev
+  pnpm dev
 ```
 
 O servidor estará rodando em:
